@@ -1,0 +1,15 @@
+{
+    "name": "jsdevenv-using-shared",
+    "version": "0.1.1-1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/larsthorup/jsdevenv-using-shared.git"
+    },
+    "description": "Sample project using common JavaScript development environment configuration",
+    "author": "Lars Thorup <lars@zealake.com>",
+    "engine": "node 1.1.x",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "jsdevenv-shared": "git://github.com/larsthorup/jsdevenv-shared.git"
+    }
+}
