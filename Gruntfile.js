@@ -2,7 +2,7 @@
 module.exports = function (grunt) {
     'use strict';
 
-    var gruntConfig = require('jsdevenv-shared/gruntConfig.js')(grunt);
+    var gruntConfig = require('jsdevenv-shared/gruntConfig')(grunt);
 
     grunt.initConfig(gruntConfig);
 };

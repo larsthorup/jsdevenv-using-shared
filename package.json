@@ -9,7 +9,9 @@
     "author": "Lars Thorup <lars@zealake.com>",
     "engine": "node 1.1.x",
     "devDependencies": {
-        "grunt": "~0.4.5",
-        "jsdevenv-shared": "git://github.com/larsthorup/jsdevenv-shared.git"
+        "grunt": "~0.4.5"
+    },
+    "scripts": {
+        "preinstall": "npm install lib/jsdevenv-shared-0.1.1-1.tgz"
     }
 }
